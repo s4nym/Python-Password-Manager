@@ -1,4 +1,5 @@
-import os, json, base64, random, stringimport os, json, base64, random, stringimport os, json, base64, random, string
+import os, json, base64, random
+import string
 from cryptography.hazmat.primitives.kdf.scrypt import Scrypt
 from cryptography.fernet import Fernet, InvalidToken
 
